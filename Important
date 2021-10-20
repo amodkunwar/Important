@@ -1,2 +1,8 @@
 Change the git credentails : 
 
+It's 3 step process. 
+1. git config --system --unset credential.helper (run this in command prompt) 
+2. Delete .gitconfig from C:Users:{your Ldap id} 
+3. In eclipse - Right click on the project - team - remote - configure (Here change the credentials) 
+
+Then if you will use git bash or cmd, you will get a pop up for your credentials
